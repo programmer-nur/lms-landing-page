@@ -10,11 +10,11 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <header
-      className="fixed h-16 inset-0 z-40 w-full p-0 lg:border-b transition ease-in"
+      className="sticky h-16 bg-mainBg inset-0 z-40 w-full p-0 lg:border-b transition ease-in"
       id="nav"
     >
       {/* desktop menu */}
-      <div className="flex h-16 justify-between items-center mx-auto max-w-7xl  bg-opacity-30  px-4 lg:px-16">
+      <div className="flex h-16 justify-between items-center mx-auto max-w-7xl  bg-opacity-30  sm:px-6 lg:px-8">
         <Link href="/" className="text-3xl text-softBlack font-extrabold ">
           Logo
         </Link>

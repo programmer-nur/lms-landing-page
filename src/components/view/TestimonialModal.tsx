@@ -44,6 +44,7 @@ export function TestimonialModal({ id }: { id: string }) {
           <div>
             <div className="w-[68px] h-[68px]">
               <Image
+                // @ts-ignore
                 src={testimonial?.image}
                 alt="test"
                 className="w-full h-full rounded-full"

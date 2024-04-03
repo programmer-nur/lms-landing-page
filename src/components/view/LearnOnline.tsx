@@ -3,7 +3,7 @@ import React from "react";
 import camera from "../../../public/assets/liveClass/camera.svg";
 import mute from "../../../public/assets/liveClass/mute.svg";
 import hd from "../../../public/assets/liveClass/hd.svg";
-import liveCourse from "../../../public/assets/liveClass/livecourse.jpg";
+import liveCourse from "../../../public/assets/liveClass/kids.webp";
 const LearnOnline = () => {
   return (
     <div className="py-8 sm:py-20">

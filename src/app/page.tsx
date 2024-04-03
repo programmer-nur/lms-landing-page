@@ -1,4 +1,5 @@
 import Courses from "@/components/view/Courses";
+import Glance from "@/components/view/Glance";
 import Hero from "@/components/view/Hero";
 import LearnOnline from "@/components/view/LearnOnline";
 import OurInstructors from "@/components/view/OurInstructors";
@@ -13,6 +14,7 @@ export default function Home() {
       <Courses />
       <OurInstructors />
       <LearnOnline />
+      <Glance />
     </div>
   );
 }

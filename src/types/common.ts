@@ -20,3 +20,12 @@ export interface IInstructor {
   students: string;
   courses: string;
 }
+
+export interface IBlog {
+  id: string;
+  title: string;
+  description: string;
+  image: string | StaticImageData;
+  date: string;
+  author: string;
+}

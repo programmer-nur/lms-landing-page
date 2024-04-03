@@ -1,3 +1,4 @@
+import Blog from "@/components/view/Blog";
 import Courses from "@/components/view/Courses";
 import Glance from "@/components/view/Glance";
 import Hero from "@/components/view/Hero";
@@ -15,6 +16,7 @@ export default function Home() {
       <OurInstructors />
       <LearnOnline />
       <Glance />
+      <Blog />
     </div>
   );
 }

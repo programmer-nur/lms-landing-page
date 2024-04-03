@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import student from "../../../public/assets/glance/students.svg";
 import tutor from "../../../public/assets/glance/tutor.svg";
 import course from "../../../public/assets/glance/course.svg";

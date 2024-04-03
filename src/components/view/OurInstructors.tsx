@@ -1,4 +1,3 @@
-import React from "react";
 import azhri from "../../../public/assets/instructos/drnayek.jpg";
 import Image from "next/image";
 import { HiOutlineAcademicCap, HiOutlineBookOpen } from "react-icons/hi";

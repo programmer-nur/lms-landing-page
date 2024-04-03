@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import camera from "../../../public/assets/liveClass/camera.svg";
 import mute from "../../../public/assets/liveClass/mute.svg";
 import hd from "../../../public/assets/liveClass/hd.svg";

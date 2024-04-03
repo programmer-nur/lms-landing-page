@@ -1,5 +1,4 @@
 import { testimonials } from "@/constants/testimonial";
-import React from "react";
 import TestimonialCard from "./TestimonialCard";
 import { ITestimonial } from "@/types/common";
 

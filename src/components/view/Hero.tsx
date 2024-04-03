@@ -25,7 +25,7 @@ const Hero = () => {
             academically, socially and emotionally
           </p>
           <Link
-            href="/portfolio"
+            href="/"
             className="flex items-center justify-start rounded-md bg-main px-4 py-2 text-base font-medium text-softWhite shadow hover:bg-grayBlack hover:text-white hover:transition md:text-lg"
           >
             GET STARTED

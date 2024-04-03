@@ -1,4 +1,3 @@
-import React from "react";
 const OurSpecialty = () => {
   return (
     <div className="py-8 sm:py-20">

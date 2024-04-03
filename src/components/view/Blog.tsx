@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import { HiOutlineArrowNarrowRight, HiOutlineCalendar } from "react-icons/hi";
 import { Badge } from "../ui/badge";
 import { blogs } from "@/constants/blogs";

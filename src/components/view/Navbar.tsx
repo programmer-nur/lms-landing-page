@@ -15,8 +15,8 @@ const Navbar = () => {
     >
       {/* desktop menu */}
       <div className="flex h-16 justify-between items-center mx-auto max-w-7xl  bg-opacity-30 px-4 sm:px-6 lg:px-8">
-        <Link href="/" className="text-3xl text-softBlack font-extrabold ">
-          Logo
+        <Link href="/" className="text-xl text-softBlack font-bold ">
+          Dawha
         </Link>
         <ul className="lg:flex hidden duration-300 ease-in-out lg:space-x-4">
           {menuItems.map((item: IMenuItem) => (
@@ -34,8 +34,8 @@ const Navbar = () => {
         <div className="md:flex gap-3 hidden justify-center items-center">
           <HiShoppingCart size={24} />
           <Link
-            href="/login"
-            className="inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-main px-7 py-2 text-base font-medium text-white shadow-sm hover:bg-main duration-300 "
+            href="#"
+            className="inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-main px-7 py-2 text-base font-medium text-white shadow-sm hover:bg-grayBlack duration-300 "
           >
             Log In
           </Link>

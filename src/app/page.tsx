@@ -5,6 +5,7 @@ import Hero from "@/components/view/Hero";
 import LearnOnline from "@/components/view/LearnOnline";
 import OurInstructors from "@/components/view/OurInstructors";
 import OurSpecialty from "@/components/view/OurSpecialty";
+import Testimonial from "@/components/view/Testimonial";
 import Image from "next/image";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <OurInstructors />
       <LearnOnline />
       <Glance />
+      <Testimonial />
       <Blog />
     </div>
   );

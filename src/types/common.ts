@@ -21,6 +21,13 @@ export interface IInstructor {
   courses: string;
 }
 
+export interface ITestimonial {
+  id: string;
+  image: string | StaticImageData;
+  name: string;
+  designation: string;
+  description: string;
+}
 export interface IBlog {
   id: string;
   title: string;

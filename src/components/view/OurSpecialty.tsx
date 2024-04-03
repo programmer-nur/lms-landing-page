@@ -2,12 +2,12 @@ import React from "react";
 const OurSpecialty = () => {
   return (
     <div className="py-8 sm:py-20">
-      <div className="mx-auto py-8 max-w-7xl flex flex-col gap-6 sm:gap-12 px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl flex flex-col gap-6 sm:gap-12 px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col justify-center items-center gap-3">
           <h2 className="text-xl sm:text-4xl font-medium sm:font-semibold text-center">
             Our Specialty
           </h2>
-          <p className="h-[2px] bg-main w-[150px]"></p>
+          <div className="h-[2px] bg-main w-[150px]"></div>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="bg-gradient-to-b from-[#FFFFFF05] to-[#FFFFFFFD] shadow-[9px_18px_30px_0px_rgba(0,0,0,0.15)] flex flex-col items-center justify-center gap-3 rounded-md  py-8">

@@ -3,22 +3,21 @@ import Link from "next/link";
 import { useState } from "react";
 import { MenuIcon } from "lucide-react";
 import { IMenuItem } from "@/types/common";
-import { HiShoppingCart } from "react-icons/hi";
+import { HiShoppingCart, HiXCircle } from "react-icons/hi";
 import { menuItems } from "@/constants/menubarItems";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <header
-      className="sticky h-16 bg-mainBg inset-0 z-40 w-full p-0 lg:border-b transition ease-in"
+      className="sticky h-16 bg-mainBg inset-0 z-40 w-full p-0 border-b transition ease-in"
       id="nav"
     >
       {/* desktop menu */}
-      <div className="flex h-16 justify-between items-center mx-auto max-w-7xl  bg-opacity-30  sm:px-6 lg:px-8">
+      <div className="flex h-16 justify-between items-center mx-auto max-w-7xl  bg-opacity-30 px-4 sm:px-6 lg:px-8">
         <Link href="/" className="text-3xl text-softBlack font-extrabold ">
           Logo
         </Link>
-
         <ul className="lg:flex hidden duration-300 ease-in-out lg:space-x-4">
           {menuItems.map((item: IMenuItem) => (
             <li key={item.href}>
@@ -43,14 +42,19 @@ const Navbar = () => {
         </div>
         <div className="text-3xl flex gap-3 justify-center items-center md:hidden">
           <HiShoppingCart size={24} />
-          <MenuIcon onClick={() => setOpen(!open)} />
+
+          {open ? (
+            <HiXCircle size={24} onClick={() => setOpen(!open)} />
+          ) : (
+            <MenuIcon size={24} onClick={() => setOpen(!open)} />
+          )}
         </div>
       </div>
 
       {/* mobile menu */}
       <div
-        className={`md:hidden overflow-hidden bg-white  fixed w-full p-20 py-8 bottom-0 duration-500 ${
-          open ? "left-0 top-14" : "left-[-100%] top-16"
+        className={`md:hidden overflow-hidden bg-mainBg  fixed w-full p-20 py-8 bottom-0 duration-500 ${
+          open ? "left-0 top-16" : "left-[-100%] top-16"
         }`}
       >
         <div className="flex justify-center items-center flex-col">

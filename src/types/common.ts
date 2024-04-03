@@ -12,3 +12,11 @@ export interface ICourse {
   tag: string;
   image: string | StaticImageData;
 }
+export interface IInstructor {
+  id: string;
+  name: string;
+  designation: string;
+  image: string | StaticImageData;
+  students: string;
+  courses: string;
+}
